@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="BookMovieApp">
+  <head>
+     <meta charset="ISO-8859-1">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <title>BookmyMovie:book movies easily with lowest
+	        rate at your nearest location</title>
+	 <link rel="shortcut icon" href="favicon.png" type="image/png">
+     
+     <!-- my custom css created by using  w3.css -->
+     <link rel="stylesheet" href = "css/w3-custom.css" type="text/css">
+     
+     <!-- font awesome 4.7.0 -->
+     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+ 
+ 
+  </head>
+  <body ng-controller="BookMovieAppCtrl" ng-init="loc='pune'"> 
+    <!-- header -->
+	<div ng-include="'html/global/header.html'"></div>
+	<br><br><br><br><br><br><br><br><br><br><br>
+	
+	{{99}} India's most famous website for booking movies
+    <!-- angular script version 1.6.5 -->
+    <script src="lib/angular.min.js" type="text/javascript"></script>
+    
+    <!--  my angular files -->
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/controllers/BookMovieAppCtrl.js" type="text/javascript"></script>
+  </body>
+</html>
